@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+  <div class="title">
+    <h3>SPLI</h3>
+    <h3>TTER</h3>
+  </div>
+
+  <div class="main">
+    <div class="container">
+      <div class="input-box">
+        <p>Bill</p>
+        <input class="dollar" id="bill" type="text" placeholder="0" onchange="getValueInput()">
+      </div>
+      <div class="tip-box">
+        <p>Select Tip %</p>
+        <div class="buttons-container">
+          <div class="button green-btn tip" id="5">
+            5%
+          </div>
+          <div class="button green-btn tip" id="10" >
+            10%
+          </div>
+          <div class="button green-btn tip" id="15">
+            15%
+          </div>
+          <div class="button green-btn tip" id="25">
+            25%
+          </div>
+          <div class="button green-btn tip" id="50">
+            50%
+          </div>
+          <input style="text-align: center;" id="custom" type="text" placeholder="Custom" onchange="getValueInput()">
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="form">
+          <p>Number of People</p>
+          <div class="error-msg" id="error"></div>
+        </div>
+        <input class="person" id="person" type="text" placeholder="0" onchange="getValueInput()"">
+      </div>
+    </div>
+
+    <div class="container results">
+      <div>
+        <div class="results-box">
+          <div>
+            <h3>Tip Amount</h3>
+            <p>/ person</p>
+          </div>
+          <h1 id="tip-amount">$0.00</h1>
+        </div>
+        <div class="results-box">
+          <div>
+            <h3>Total</h3>
+            <p>/ person</p>
+          </div>
+          <h1 id="total">$0.00</h1>
+        </div>
+      </div>
+      <div class="button reset-btn" onclick="reset()">
+        RESET
+      </div>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">José Salinas</a>.
+  </div>
+
+  <script src="/js/app.js"></script>
+
+</body>
+</html>
