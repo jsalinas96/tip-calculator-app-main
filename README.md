@@ -1,4 +1,4 @@
-# Frontend Mentor - Time tracking dashboard
+# Frontend Mentor - Tip calculator app solution
 
 Esta es una solución para: [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Los desafíos de Frontend Mentor ayudan a mejorar las habilidades de codificación mediante la construcción de proyectos realistas.
 
