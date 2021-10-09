@@ -37,6 +37,7 @@ Los usuarios deben poder:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Javascript
 
 
 ### Autor
